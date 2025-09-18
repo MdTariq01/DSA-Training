@@ -29,11 +29,11 @@ Linear Search, also known as **Sequential Search**, is a simple searching algori
 
 ## 🔹 Pseudocode
 ```java
-function linearSearch(arr, target):
-for i from 0 to length(arr) - 1:
-if arr[i] == target:
-return i
-return -1
+ function linearSearch(arr, target):
+ for i from 0 to length(arr) - 1:
+ if arr[i] == target:
+ return i
+ return -1
 ```
 
 
@@ -70,4 +70,3 @@ return -1
 - Small lists or arrays.
 - Checking membership in unsorted data.
 - Situations where simplicity is more important than efficiency.
-
